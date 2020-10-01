@@ -38,6 +38,11 @@ input {
   outline: 5px;
 }
 
+input[placeholder] {
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+}
+
 .profile-image {
   border-radius: 50%;
 }

@@ -5,6 +5,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Amatic SC', cursive;
 }
 
 .gallery-container {
@@ -25,7 +26,8 @@ img {
   height: 200px;
 }
 
-.search-box {
+.search-box,
+footer {
   text-align: center;
 }
 
@@ -34,4 +36,8 @@ input {
   width: 500px;
   margin: 20px auto;
   outline: 5px;
+}
+
+.profile-image {
+  border-radius: 50%;
 }

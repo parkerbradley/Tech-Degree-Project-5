@@ -8,7 +8,7 @@ body {
   font-family: 'Amatic SC', cursive;
 }
 
-.gallery-container {
+.gallery {
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));

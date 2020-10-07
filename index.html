@@ -11,9 +11,9 @@
     <header class="search-box">
       <img src="images/IMG_0918.jpeg" class="profile-image">
       <h1>Bradley's Awesome Photo Gallery</h1>
-      <input type="search" name="search" id="search" placeholder="Search...">
+      <input type="search" name="search" id="search" onkeyup="getUserSearch()" placeholder="Search...">
     </header>
-    <main class="gallery-container">
+    <main class="gallery">
       <a href="images/01.jpg" data-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
         <img src="images/thumbnails/01.jpg" alt="Hay Bales">
       </a>
@@ -54,7 +54,7 @@
     <footer>
       <p>&copy;2020 Parker Photography</p>
     </footer>
-    <script src="js/searchFilter.js"></script>
+    <script src="js/search.js"></script>
     <script src="js/baguetteBox.min.js"></script>
     <script src="js/app.js"></script>
   </body>

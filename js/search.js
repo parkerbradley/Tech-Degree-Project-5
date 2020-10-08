@@ -9,7 +9,7 @@ function getUserSearch() {
     let imageCaptionText = gallery[i].getAttribute('data-caption');
     let captionTextNormalized = imageCaptionText.toLowerCase();
 //checks if user's search query is in the data-caption and hides the <a> if it does not
-    if (captionTextNormalized.includes(searchInput)) {
+    if (captionTextNormalized.includes(searchNormalized)) {
       gallery[i].style.display = '';
     } else {
       gallery[i].style.display = 'none';

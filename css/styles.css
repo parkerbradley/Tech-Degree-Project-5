@@ -33,9 +33,15 @@ footer {
 
 input {
   height: 50px;
-  width: 500px;
+  width: 90%;
   margin: 20px auto;
   outline: 5px;
+}
+
+@media (min-width: 500px) {
+  input {
+    width: 500px;
+  }
 }
 
 input[placeholder] {
